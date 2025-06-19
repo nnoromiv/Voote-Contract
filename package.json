@@ -1,0 +1,29 @@
+{
+  "name": "voote-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnoromiv/Voote-Contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nnoromiv/Voote-Contract/issues"
+  },
+  "homepage": "https://github.com/nnoromiv/Voote-Contract#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.14",
+    "hardhat": "^2.24.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
