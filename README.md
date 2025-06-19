@@ -16,5 +16,11 @@ Try running some of the following tasks:
     npx hardhat test
     REPORT_GAS=true npx hardhat test
     npx hardhat node
-    npx hardhat run scripts/deploy.ts --network amoy
+    npx hardhat run scripts/deploy.ts --network sepolia
+```
+
+## Generate Java from Contract ABI and Bin
+
+```bash
+    web3j generate solidity -a artifacts/Voote.abi -b artifacts/Voote.bin -p com.example.voote.contract -o \Users\Administrator\Projects\Voote-Contract\.generated
 ```
